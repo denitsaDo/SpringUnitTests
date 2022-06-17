@@ -20,9 +20,9 @@ public class Beer {
     }
 
     public Beer(int id, String name, double abv) {
-        this.abv = abv;
-        this.name = name;
         this.id = id;
+        this.name = name;
+        this.abv = abv;
     }
 
     public int getId() {
